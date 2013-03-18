@@ -1,0 +1,5 @@
+
+Enter A String:
+a-d
+a-la-ca-ca-cc-f
+j-n
