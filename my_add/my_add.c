@@ -10,15 +10,15 @@ int main()
 }/*main*/
 unsigned int my_add(unsigned int a, unsigned int b)
 {
-    int mask = 0, result =0;
+    int mask = 0, result = 0;
     result = a ^ b;
     mask = a & b;
     
     while (mask!=0) {
         
-        int shifted=mask<<1;
+        int shifted = mask << 1;
         
-        mask = result &shifted;
+        mask = result & shifted;
         
         result ^= shifted;
         
