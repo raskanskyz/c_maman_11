@@ -4,7 +4,6 @@
 unsigned int my_add(unsigned int a, unsigned int b);
 void binaryCount(unsigned int n);
 
-/*testing push*/
 int main()
 {
     unsigned int a=0;
