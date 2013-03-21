@@ -6,8 +6,10 @@ unsigned int my_add(unsigned int a, unsigned int b);
 int main()
 {
 	unsigned int my_add(unsigned int a, unsigned int b)
-	}
-
+	{
+		int mask =0;
+		int bit1 = a & mask; 
+		int bit2 = b & mask;
 	}/*my_add*/
 }/*main*/
 

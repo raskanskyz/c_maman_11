@@ -6,11 +6,11 @@ void printArray(char a[]);
 
 int main()
 {
-printf("\nEnter A String:\n");
-char a [MAX];
-while(fgets(a, MAX, stdin))
-printArray(a);
-return 0;
+	printf("\nEnter A String:\n");
+	char a [MAX];
+	while(fgets(a, MAX, stdin))
+		printArray(a);
+	return 0;
 }/*main*/
 
 void printArray(char a[])
@@ -25,7 +25,7 @@ void printArray(char a[])
 				{
 				printf("-");
 				while((a[i+2]-a[i+1])==1)
-					i++;	/*while "trimming array"*/
+					i++;	/*while "trimming string"*/
 				printf("%c", a[i+1]);
 				i++;
 				}
