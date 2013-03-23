@@ -6,16 +6,16 @@ void binaryCount(unsigned int n);
 
 int main()
 {
-    unsigned int a=0;
-    unsigned int b=0;
+    unsigned int a, b;
     printf("Please enter two numbers to sum:");
-    scanf("%u%u",&a, &b);
+    while (scanf("%u%u",&a, &b)!=EOF)
+    {
     int result = my_add(a, b);
     printf("%d + %d (base 10) = %d\n", a, b, result);
     printf("%d + %d (base 2) = ", a, b);
     binaryCount(result);
     printf("\n");
-    
+    }/*while*/
     return 0;
 }/*main*/
 
