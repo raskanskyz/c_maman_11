@@ -11,7 +11,7 @@ int main()
     while (scanf("%u%u",&a, &b)!=EOF)
     {
     int result = my_add(a, b);
-    printf("%d + %d (base 10) = %d\n", a, b, result);
+    printf("\n%d + %d (base 10) = %d\n", a, b, result);
     printf("%d + %d (base 2) = ", a, b);
     binaryCount(result);
     printf("\n");
