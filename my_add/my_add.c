@@ -1,3 +1,7 @@
+/*
+ This program sums two given numbers using bitwise operators.
+ */
+
 #include <stdio.h>
 
 /*function prototype*/
@@ -19,6 +23,10 @@ int main()
     return 0;
 }/*main*/
 
+/*
+This function iterates through the integers bits (by masking each bit)
+and return the result to the user.
+ */
 unsigned int my_add(unsigned int a, unsigned int b)
 {
     int mask = 0, result = 0;
@@ -38,6 +46,10 @@ unsigned int my_add(unsigned int a, unsigned int b)
     return result;
 }/*my_add*/
 
+/*
+This function gets an integer and prints it in base 2
+ by deviding the number by 2 and then printing the remainder (1 or 0)
+ */
 void binaryCount(unsigned int n){
     
     if (n<2 && n%2==0) {
